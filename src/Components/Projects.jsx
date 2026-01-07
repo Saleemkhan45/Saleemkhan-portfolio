@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import Shophub from "../assets/Shophub.webp";
-import Saasflow from "../assets/SaasFlow.webp";
+import ShopHub from "../assets/ShopHub.webp";
+import SaasFlow from "../assets/SaasFlow.webp";
 
 const projects = [
   {
     title: "ShopHub E-commerce Website",
     description:
       "A modern e-commerce web application built with React and Tailwind CSS featuring clean UI, responsive design, and product-focused layout.",
-    image: Shophub,
+    image: ShopHub,
     live: "https://react-tailwind-e-com-fexr.bolt.host/",
   },
   {
     title: "SaaS Flow Landing Page",
     description:
       "A high-conversion SaaS landing page with modern layout, smooth animations, and strong visual hierarchy for startups.",
-    image: Saasflow,
+    image: SaasFlow,
     live: "https://broad-dream-4205.dev.animaapp.io/?v=1765912255.883126",
   },
 ];
